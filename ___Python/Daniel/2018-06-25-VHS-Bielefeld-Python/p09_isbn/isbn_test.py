@@ -1,7 +1,8 @@
 import unittest
 
 # Tests adapted from `problem-specifications//canonical-data.json` @ v2.4.0
-from p09_isbn.isbn import verify
+# from p09_isbn.isbn import verify
+from isbn import verify
 
 
 class IsbnVerifierTest(unittest.TestCase):

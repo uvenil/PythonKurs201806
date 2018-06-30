@@ -13,8 +13,11 @@ def count_dirs(path):
     except PermissionError:
         return 1
 
+
 #count = count_dirs(Path("C:\Program Files"))
-count = count_dirs(Path("O:\Spielwiese"))
+#count = count_dirs(Path("/home/micha/Schreibtisch/fundus/PythonKurs201806"))
+count = count_dirs(Path("/home/micha/Schreibtisch/fundus/PythonKurs201806/___Python"))
+#count = count_dirs(Path("/home/micha/Schreibtisch/fundus/server"))
 print(count)
 
 

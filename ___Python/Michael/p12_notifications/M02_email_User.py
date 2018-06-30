@@ -1,3 +1,5 @@
+# Zum Senden über Google Mail "Zugriff auf weniger sichere Apps" (kurzfristig) einschalten
+
 # Import smtplib for the actual sending function
 import smtplib
 

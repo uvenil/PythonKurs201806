@@ -51,7 +51,14 @@ def wuerfeln3():
         return wuerfeln3()
     return binaer
 
-# def wuerfeln3():
+def wuerfeln4():    # beste Lösung
+    while True:
+        wuerfel = 1
+        for i in range(3):
+            wuerfel += 2 ** i * muenzwurf()
+        if wuerfel < 7:
+            break
+    return wuerfel
 
 print(wuerfeln2())
 print()
@@ -59,10 +66,10 @@ print(wuerfeln3())
 
 d = {}
 for i in range(100000):
-    augenzahl = wuerfeln2()
+    augenzahl = wuerfeln4()
     if augenzahl in d:
         d[augenzahl] += 1
     else:
         d[augenzahl] = 1
 
-print(d)
+print(sorted(d.items(), key=lambda tupel: tupel[0]))

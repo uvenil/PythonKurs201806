@@ -11,6 +11,7 @@ events -> threads
 Benachrichtigungen
 
 # Python:
+pip3 install verwenden
 Datei-Struktur
 Dateiendung .py
 Packages von .py-Dateien
