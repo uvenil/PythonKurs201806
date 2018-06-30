@@ -1,6 +1,6 @@
 from tkinter import Tk, Frame, Button, LEFT
 
-from Tkinter import *
+# from Tkinter import *
 class App:
   def __init__(self, master):
     frame = Frame(master)
